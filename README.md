@@ -3,9 +3,8 @@
 ## Purpose
 Imagine we are interested in genes that cause lung cancer. We collect cells from our lung tissue, but there are different cells in this  tissue, and gene expressions are different in different cells. How do we know which gene in which kinds of cells is the key abnormality that causes cancer?
 ![lung tissue](https://github.com/GYDTTDYX/BENG183project/blob/main/%E6%88%AA%E5%B1%8F2022-11-28%2009.37.25.png "cells in lung tissue")
-To deal with these problems, techniques that can separately analyze different cells in the same tissue is needed. scRNA-seq is the one that tackle this problem. scRNA-seq can sequence different cells, generate a dataset in which each sample is a cell in the tissue and the features are the gene expression of the cell. 
-
-Most importantly, we can analyze more than 15000 cells in a short period of time, which significantly save researcher's time. And now we are going to explain the stepwise procedure of a scRNA-seq.
+To deal with these problems, techniques that can separately analyze different cells in the same tissue is needed. scRNA-seq is the one that tackle this problem. scRNA-seq can sequence different cells, generate a dataset in which each sample is a cell in the tissue and the features are the gene expression of the cell. And most importantly, this technique allow us to analyze more than 15000 cells in a short period of time, which significantly save researcher's time. 
+Due to the efficiency and effectiveness of the technique, it is useful to learn more about scRNA-seq technology.
 
 ## Upstream 
 Here we can see the process of sequencing: 
