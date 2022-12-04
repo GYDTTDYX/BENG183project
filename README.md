@@ -5,7 +5,7 @@ Imagine we are interested in genes that cause lung cancer. We collect cells from
 ![lung tissue](https://github.com/GYDTTDYX/BENG183project/blob/main/%E6%88%AA%E5%B1%8F2022-11-28%2009.37.25.png "cells in lung tissue")
 ###### Figure1: Lung tissue
 To deal with these problems, techniques that can separately analyze different cells in the same tissue are needed. scRNA-seq is the one that tackles this problem. scRNA-seq can sequence different cells, and generate a dataset in which each sample is a cell in the tissue and the features are the gene expression of the cell. And most importantly, this technique allows us to analyze more than 15000 cells in a short period of time, which significantly save researchers time. 
-![difference]("https://github.com/GYDTTDYX/BENG183project/blob/main/%E6%88%AA%E5%B1%8F2022-12-04%2015.06.13.png")
+![difference](https://github.com/GYDTTDYX/BENG183project/blob/main/%E6%88%AA%E5%B1%8F2022-12-04%2015.06.13.png "difference")
 ###### Figure2: Difference Between Bulk RNA-seq and scRNA-seq
 Due to the efficiency and effectiveness of the technique, it is useful to learn more about scRNA-seq technology.
 
