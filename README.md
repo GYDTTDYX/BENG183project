@@ -90,7 +90,7 @@ This is a example result of dimension reduction. By using Seurat, we can visuali
 Dev_NPC <- RunPCA(Dev_NPC, features = VariableFeatures(object = Dev_NPC), verbose = FALSE, npcs = 100) 
 ```
 
-The key step of dimension reduction is PCA -- Principal Component Analysis. With PCA we find independent and separated features and prepare for clustering. 
+The first key step of dimension reduction is PCA -- Principal Component Analysis. With PCA we find independent and separated features and prepare for clustering. 
 ```
 Dims <- 30
 Dev_Hep <- FindNeighbors(Dev_Hep, dims=1:Dims)
