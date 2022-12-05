@@ -82,7 +82,7 @@ _Why do we perform Dimension Reduction?
 
 The count matrix is a multidimensional data set, which is very hard to explore the inner patterns (especially for human eyes!!). If you remember the beautiful figures in papers like this:
 
-![intro_dr](SC_umap.png "A UMAP Plot of single-cell Clusters")
+![intro_dr](figure9.png "A UMAP Plot of single-cell Clusters")
 
 This is a example result of dimension reduction. By using Seurat, we can visualize the count matrix using two most significant dimensions, and achieve clusters automatically. After this, we can find marker genes for each cluster and determine what they represent. As in UMAP plots, the general structure and distances between clusters also contains information, we are able to generate rich analysis results using Dimension Reduction.
 
@@ -104,13 +104,13 @@ Dev_Hep <- RunUMAP(Dev_Hep, dims = 1:Dims)
 
 To visualize the dimension reduction result and clusters, we mainly have two methods: tSNE or UMAP to better separate and visualize the clusters.. They both reduce higher dimensional data to two dimensions and then we plot clusters with the data. UMAP is the newer and more comprehensive tool, which is better based on mathematical induction than tSNE. When we compare UMAP and tSNE plots, UMAP uses cross-entropy loss as loss function and results in a more authentic general structure. It is also much faster than tSNE, especially on large data sets.
 
-![tSNE](tSNE_clusters.jpg "A tSNE Plot of 10 Clusters")
+![tSNE](figure10.jpg "A tSNE Plot of 10 Clusters")
 
-![tSNE_time](tSNE_time.jpg "The same tSNE Plot with respect to timeline")
+![tSNE_time](figure11.jpg "The same tSNE Plot with respect to timeline")
 
 This is a example of visualizing tSNE-based clusters. We can see this plot with first, clusters based on identities and second, clusters based on timeline. When we compare the two plots, we can understand how the different clusters of cells change with respect to time.
 
-![Featureplot](Suclg2_dimplot.jpg "Feature of marker gene among previous clusters")
+![Featureplot](figure12.jpg "Feature of marker gene among previous clusters")
 
 We can use more ways to visualize the dimension reduction analysis. For example, we can use marker genes (The _Feature_) and show their concentration among the clusters. Suclg2 is a marker gene of mitochondria TCA cycle, so we can see its distribution in the clusters and assume the functional relationship between different clusters of cells and mitochondria activities.
 
