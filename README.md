@@ -114,8 +114,8 @@ This is a example of visualizing tSNE-based clusters. We can see this plot with 
 
 We can use more ways to visualize the dimension reduction analysis. For example, we can use marker genes (The _Feature_) and show their concentration among the clusters. Suclg2 is a marker gene of mitochondria TCA cycle, so we can see its distribution in the clusters and assume the functional relationship between different clusters of cells and mitochondria activities.
 
-![Ridge](Sdhb_Ridge.jpg "RidgePlot of Expression Levels in different days")
-![Vln](Sdhb_violin.jpg "ViolinPlot of Expression Levels in different days")
+![Ridge](figure13.jpg "RidgePlot of Expression Levels in different days")
+![Vln](figure14.jpg "ViolinPlot of Expression Levels in different days")
 
 RidgePlots and ViolinPlots are used in showing the expression level differences between days or features.
 
@@ -123,7 +123,7 @@ RidgePlots and ViolinPlots are used in showing the expression level differences 
 
 Another section of Single-cell Sequencing analysis is differential expression (just like bulk RNA sequencing). To find Differentially Expressed genes, we have a convenient method: ```FindAllMarkers()```. It calculates the DE genes in each cluster and we can save the result in a csv file, just like the DESeq2 result.
 
-![DE](DE_result.jpg "Differential Expression Analysis")
+![DE](figure15.jpg "Differential Expression Analysis")
 
 The difference, or advantage we get from single-cell sequencing compared to bulk RNA sequencing is that we can get information about each type of cell instead of all cells mixed. Seurat has designed multiple tools to utilize this advantage.
 
@@ -140,3 +140,5 @@ In conclusion, single-cell sequencing provides differentially expressed genes an
 7. L.Wolock, Samuel, et al. “Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data.” *Cell Systems*, Cell Press, 3 Apr. 2019, https://www.sciencedirect.com/science/article/pii/S2405471218304745.
 8. Ilicic, Tomislav, et al. “Classification of Low Quality Cells from Single-Cell RNA-Seq Data.” *Genome Biology*, U.S. National Library of Medicine, 17 Feb. 2016, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758103/.  
 9. “Cell Ranger.” *What Is Cell Ranger? -Software -Single Cell Gene Expression -Official 10x Genomics Support*, https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger. 
+10. "Function reference · Seurat" Seurat, https://satijalab.org/seurat/reference/index.html.
+11. Liang, Yan, et al. “Temporal Analyses of Postnatal Liver Development and Maturation by Single-Cell Transcriptomics.” Developmental Cell, Cell Press, 7 Feb. 2022, https://www.sciencedirect.com/science/article/abs/pii/S1534580722000041. 
