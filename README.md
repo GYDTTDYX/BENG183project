@@ -82,7 +82,9 @@ _Why do we perform Dimension Reduction?_
 
 The count matrix is a multidimensional data set, which is very hard to explore the inner patterns (especially for human eyes!!). If you remember the beautiful figures in papers like this:
 
-![intro_dr](figure9.png "A UMAP Plot of single-cell Clusters")
+![intro_dr](figure9.png)
+###### Figure 9: A UMAP Plot of single-cell Clusters
+
 
 This is a example result of dimension reduction. By using Seurat, we can visualize the count matrix using two most significant dimensions, and achieve clusters automatically. After this, we can find marker genes for each cluster and determine what they represent. As in UMAP plots, the general structure and distances between clusters also contains information, we are able to generate rich analysis results using Dimension Reduction.
 
