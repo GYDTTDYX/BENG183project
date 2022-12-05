@@ -123,7 +123,7 @@ RidgePlots and ViolinPlots are used in showing the expression level differences 
 
 Another section of Single-cell Sequencing analysis is differential expression (just like bulk RNA sequencing). To find Differentially Expressed genes, we have a convenient method: ```FindAllMarkers()```. It calculates the DE genes in each cluster and we can save the result in a csv file, just like the DESeq2 result.
 
-![DE](figure15.jpg "Differential Expression Analysis")
+![DE](figure15.png "Differential Expression Analysis")
 
 The difference, or advantage we get from single-cell sequencing compared to bulk RNA sequencing is that we can get information about each type of cell instead of all cells mixed. Seurat has designed multiple tools to utilize this advantage.
 
