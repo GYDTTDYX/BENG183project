@@ -78,7 +78,7 @@ Dev_NPC <- ScaleData(Dev_NPC, vars.to.regress = c("nCount_RNA","percent.mt"), fe
 By scaling data, we perform feature-level scaling. Each feature will have a mean of 0 and scaled by its standard deviation, which means it is regressed. Then, we scale and center the residues.
 
 #### Dimension Reduction
-Why do we perform Dimension Reduction?
+__Why do we perform Dimension Reduction?
 
 The count matrix is a multidimensional data set, which is very hard to explore the inner patterns (especially for human eyes!!). If you remember the beautiful figures in papers like this:
 
