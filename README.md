@@ -102,7 +102,7 @@ Dev_Hep <- RunTSNE(Dev_Hep, dims = 1:Dims, tsne.method = "Rtsne", nthreads = 8, 
 Dev_Hep <- RunUMAP(Dev_Hep, dims = 1:Dims)
 ```
 
-To visualize the dimension reduction result and clusters, we mainly have two methods: tSNE or UMAP to better separate and visualize the clusters. They both reduce higher dimensional data to two dimensions and then we plot clusters with the data. UMAP is the newer and more comprehensive tool, which is better based on mathematical induction than tSNE. When we compare UMAP and tSNE plots, UMAP uses cross-entropy loss as loss function and results in a more authentic general structure. It is also much faster than tSNE, especially on large data sets.
+To visualize the clusters, we mainly have two methods: tSNE or UMAP to better separate and visualize the clusters. They both reduce higher dimensional data to two dimensions and then we plot clusters with the data. UMAP is the newer and more comprehensive tool, which is better based on mathematical induction than tSNE. When we compare UMAP and tSNE plots, UMAP uses cross-entropy loss as loss function and results in a more authentic general structure. It is also much faster than tSNE, especially on large data sets.
 
 ![tSNE](figure10.jpg "A tSNE Plot of 10 Clusters")
 
